@@ -15,46 +15,66 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-
+  <!-- #wrapper: From here -->
+  <div id="wrapper">
+    <!-- #left: From here -->
     <div class="card">
-      <img src="images/profile_picture.jpg" alt="profile_picture" class="img-circle">
-      <h1>Kouhei Takesita</h1>
-      <h2>Le Wagon Tokyo</h2>
-      <p><strong> My principles are intuition, curiosity, and growth.
-        <br>
-      I will enjoy my life! </strong>
-      </p>
+      <div id="left">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i></a></li>
+          <li><i class="fa fa-github fa-fw" aria-hidden="true"></i></li>
+          <li><i class="fa fa-mobile fa-fw" aria-hidden="true"></i></li>
+        </ul>
+      </div>  
     </div>
+    <!-- #left: End -->
+  
+    <!-- #right: From here -->
+    <div id="right">
+      <div class="card">
+        <img src="images/profile_picture.jpg" alt="profile_picture" class="img-circle">
+        <h1>Kouhei Takesita</h1>
+        <h2>Le Wagon Tokyo</h2>
+        <p><strong> My principles are intuition, curiosity, and growth.
+          <br>
+        I will enjoy my life! </strong>
+        </p>
+      </div>
 
-    <div class="card">
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.facebook.com/kouhei.yokoi"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/akyhira"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter
-          </a>
-        </li>
-      </ul>
-    </div>
+      <div class="card">
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/kouhei.yokoi"> <i class="fa fa-facebook fa-fw" aria-hidden="true"></i>Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/akyhira"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="card">
-      <h2>Recommendations for futuristic Japanese animation</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td><img src="images/psycho-pass.jpg" alt= "psycho-pass.jpg"></td>
-            <td><strong>[Psycho-Pass]:</strong><br>Kind of bit grotesque, but after you watch, you will think something about the world which are governed by AI.</td>
-          </tr>
-          <tr>
-            <td><img src="images/gatchaman.jpg" alt= "gatchaman.jpg"></td>
-            <td><strong>[Gatchaman Crowds]:</strong><br>A little bit fancy, but after you watch, you will think something about the connection between technology and people.</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="card">
+        <h2>Recommendations for futuristic Japanese animation</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="images/psycho-pass.jpg" alt= "psycho-pass.jpg"></td>
+              <td><strong>[Psycho-Pass]:</strong><br>Kind of bit grotesque, but after you watch, you will think something about the world which are governed by AI.</td>
+            </tr>
+            <tr>
+              <td><img src="images/gatchaman.jpg" alt= "gatchaman.jpg"></td>
+              <td><strong>[Gatchaman Crowds]:</strong><br>A little bit fancy, but after you watch, you will think something about the connection between technology and people.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+    <!-- #right: End-->
+    <div class ="clearfloat"></div>
+    <footer>This page has been coded during the coding bootcamp @LeWagon. <br>That camp is really helpful for me!</footer>
   </div>
+  <!-- #wrapper: END-->
+
 </body>
 </html>
