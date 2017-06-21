@@ -1,0 +1,79 @@
+/* Here goes your CSS */
+
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    line-height: 150%;
+}
+
+a:link {
+    color: #0000ff;
+    text-decoration: none;
+}
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+ul{
+    list-style:none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #354628;
+    /*color: #000080;*/
+    line-height: 50%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    color: rgb(237, 118, 0);
+    line-height: 100%;
+}
+
+table {
+    font-size: x-small;
+}
+
+table img{
+    width: 150px;
+    height: 150px;
+    border:solid 1px;
+}
+
+.container {
+    width: 500px;   /* Set width */
+    margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+    background: white;                          /* White background */
+    padding: 5px;                              /* Internal space */
+    border-radius: 10px;                         /* Small radius */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%
+}
+
+.list-inline > li {
+  padding-left: 0px 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
